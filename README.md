@@ -45,11 +45,12 @@ This application allows users to log in, browse a catalog of adoptable dogs, fil
 
 ```bash
 # Clone the repo
-git clone <YOUR_REPO_URL>
-cd fetch-a-friend
+git clone https://github.com/Anjalikakade610k/FurEver-Home
 
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
+
+Can also see on: https://fetchyourfriend.netlify.app/
