@@ -1,33 +1,55 @@
-# 🐶 Fetch a Friend
+# 🐾 Fetch a Friend – Dog Adoption Platform
 
-A delightful dog adoption web application that helps dog lovers discover and adopt their future furry friend from local shelters.
+A frontend take-home project for Fetch, where dog lovers can search, filter, and find their next best friend from a shelter dog database.
 
----
+## 📚 Overview
 
-## 🚀 Project Info
-
-**Live URL**: [https://lovable.dev/projects/7d431b94-497c-4dd6-84fb-87bb4853d44e](https://lovable.dev/projects/7d431b94-497c-4dd6-84fb-87bb4853d44e)
+This application allows users to log in, browse a catalog of adoptable dogs, filter by breed, mark favorites, and ultimately generate a match for adoption. Built with React, TypeScript, Vite, and Tailwind CSS to deliver a fast, responsive, and enjoyable experience.
 
 ---
 
-## 🧑‍💻 How to Run Locally
+## ✨ Features
+
+- 🔐 **Authentication** using name and email
+- 🐶 **Dog Search Page** after login
+  - Filter dogs by breed
+  - Paginated results
+  - Sort dogs alphabetically by breed (asc/desc)
+- 💖 **Favorites System**
+  - Add/remove favorite dogs
+  - Generate a match from selected favorites
+- 📸 All dog fields displayed: image, name, age, breed, and location
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- **React + TypeScript**
+- **Vite** – blazing-fast dev server
+- **Tailwind CSS** – for utility-first styling
+- **shadcn/ui** – for accessible components
+- **Axios** – for API communication
+- **Fetch API** – credentialed requests
+- **Hosted publicly** for easy review and access
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (18.x or later)
+- Node.js (v18 or higher)
 - npm (comes with Node.js)
 
-### Setup Instructions
+### Installation
 
-```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repo
+git clone <YOUR_REPO_URL>
+cd fetch-a-friend
 
 # Install dependencies
 npm install
 
-# Start the development server
+# Start development server
 npm run dev
